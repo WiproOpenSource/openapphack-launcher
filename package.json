@@ -1,0 +1,30 @@
+{
+  "name": "OpenAppHack",
+  "version": "0.0.0",
+  "description": "opensource application aggregator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . OpenAppHack --platform=all --arch=all --version=0.29.2"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "check-dependencies": "^0.11.0",
+    "electron-packager": "^5.1.1",
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.5"
+  },
+  "dependencies": {
+    "bootbox": "^4.4.0",
+    "bootstrap": "^3.3.5",
+    "compare-version": "^0.1.2",
+    "electron-prebuilt": "^0.34.1",
+    "font-awesome": "^4.4.0",
+    "git-url-parse": "^4.2.1",
+    "jquery": "^2.1.4",
+    "q": "^1.4.1",
+    "sudo-prompt": "^2.3.0",
+    "yamljs": "^0.2.4"
+  }
+}
