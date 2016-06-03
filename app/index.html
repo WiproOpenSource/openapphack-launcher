@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>OpenAppHack</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome CSS -->
+    <link href="../node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container-fluid" id="wrapper">
+      <div class="row">
+        <!-- Sidebar / Menu -->
+        <nav class="col-sm-3 col-md-2 sidebar"></nav>
+
+        <!-- Main content wrapper -->
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2" id="main">
+          <div id="global-notices"></div>
+
+          <div id="view-wrap"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      window.$ = window.jQuery = require('./../node_modules/jquery/dist/jquery.min.js');
+    </script>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+      require('./js/openapphack.js');
+
+      var $ = require('jquery');
+      global.jQuery = require("jquery");
+      window.$ = $;
+      var bootstrap = require('bootstrap');
+      var bootbox = require('bootbox');
+    </script>
+  </body>
+</html>
