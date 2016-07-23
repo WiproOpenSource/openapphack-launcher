@@ -12,7 +12,7 @@ Pre-requisites:
 
 Steps:
 
-1. `git clone https://github.com/wiproopensourcepractice/openapphack-launcher.git`
+1. `git clone https://github.com/openapphack/openapphack-launcher.git`
 2. `cd openapphack-app`
 3. `git submodule init && git submodule update --recursive`
 4. `npm install`
