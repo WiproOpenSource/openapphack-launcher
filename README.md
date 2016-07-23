@@ -1,4 +1,4 @@
-# OpenAppHack App
+# OpenAppHack Launcher App
 
 
 
