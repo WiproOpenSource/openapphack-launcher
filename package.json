@@ -11,7 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "check-dependencies": "^0.11.0",
-    "electron-packager": "^5.1.1",
+    "electron-packager": "^7.0.0",
     "gulp": "^3.9.0",
     "gulp-less": "^3.0.5"
   },
@@ -22,7 +22,7 @@
     "electron-prebuilt": "^0.34.1",
     "font-awesome": "^4.4.0",
     "git-url-parse": "^4.2.1",
-    "jquery": "^2.1.4",
+    "jquery": "^3.1.1",
     "q": "^1.4.1",
     "sudo-prompt": "^2.3.0",
     "yamljs": "^0.2.4"
