@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "bootbox": "^4.4.0",
-    "bootstrap": "^3.3.5",
+    "bootstrap": "^4.0.0",
     "compare-version": "^0.1.2",
     "electron-prebuilt": "^0.34.1",
     "font-awesome": "^4.4.0",
